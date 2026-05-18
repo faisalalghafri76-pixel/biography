@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="السيرة الذاتية للشيخ حمد بن علي الغافري — خط زمني تفاعلي لمحطات حياته في الشعر والفروسية والعمل الإداري.">
+    <title>السيرة الذاتية - الشيخ حمد بن علي الغافري</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <header class="main-header">
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="biography.html">السيرة الذاتية</a></li>
+                <li><a href="achievements.html">الإنجازات</a></li>
+                <li><a href="poetry.html">ديوان الشعر</a></li>
+                <li><a href="stories.html">القصص</a></li>
+                <li><a href="gallery.html">معرض الصور</a></li>
+                <li><a href="testimonials.html">المراسيم السلطانية</a></li>
+                <li><a href="prayers.html">صفحة الدعاء</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="biography-section">
+        <div class="biography-content">
+            <section class="bio-intro">
+                <h1>السيرة الذاتية</h1>
+                <p class="intro-text">الشيخ حمد بن علي بن سعيد الغافري شخصية بارزة في سلطنة عُمان، عُرف بتعدد مواهبه ومساهماته في الشعر، الفروسية، الرماية، والعمل الإداري.</p>
+            </section>
+
+            <section class="bio-timeline interactive-timeline" aria-label="الخط الزمني للسيرة">
+                <h2 class="timeline-section-title">الخط الزمني للمسيرة</h2>
+                <p class="timeline-section-hint">اختر محطة من الشريط أدناه أو مرّر لاستكشاف المحطات</p>
+
+                <nav class="timeline-nav" aria-label="التنقل بين محطات السيرة">
+                    <button type="button" class="timeline-nav-btn active" data-target="era-birth">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                        النشأة
+                    </button>
+                    <button type="button" class="timeline-nav-btn" data-target="era-childhood">
+                        <i class="fas fa-child" aria-hidden="true"></i>
+                        الطفولة
+                    </button>
+                    <button type="button" class="timeline-nav-btn" data-target="era-poetry">
+                        <i class="fas fa-feather-alt" aria-hidden="true"></i>
+                        الشعر
+                    </button>
+                    <button type="button" class="timeline-nav-btn" data-target="era-career">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i>
+                        المناصب
+                    </button>
+                    <button type="button" class="timeline-nav-btn" data-target="era-award">
+                        <i class="fas fa-trophy" aria-hidden="true"></i>
+                        ١٩٨٩م
+                    </button>
+                    <button type="button" class="timeline-nav-btn" data-target="era-diwan">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                        الدواوين
+                    </button>
+                    <button type="button" class="timeline-nav-btn" data-target="era-hobbies">
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        الهوايات
+                    </button>
+                    <button type="button" class="timeline-nav-btn" data-target="era-passing">
+                        <i class="fas fa-dove" aria-hidden="true"></i>
+                        الوفاة
+                    </button>
+                </nav>
+
+                <div class="timeline-progress" aria-hidden="true">
+                    <span class="timeline-progress-fill"></span>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item is-active" id="era-birth" data-era="birth">
+                        <span class="timeline-badge">النشأة</span>
+                        <div class="content">
+                            <h3><i class="fas fa-graduation-cap" aria-hidden="true"></i> البدايات الأولى</h3>
+                            <p>وُلد الشيخ حمد في بلد الدريز بولاية عبري بمحافظة الظاهرة. نشأ في كنف والده الشيخ علي بن سعيد الغافري، وتعلّم القرآن الكريم.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" id="era-childhood" data-era="childhood">
+                        <span class="timeline-badge">في سن السابعة</span>
+                        <div class="content">
+                            <h3><i class="fas fa-horse-head" aria-hidden="true"></i> الطفولة والمواهب المبكرة</h3>
+                            <p>في سن مبكرة برع في الفروسية والرماية، ومن أشهر حكاياته هدية السلطان وفرس «العبية»، وإصابته «دلة» من مسافة بعيدة في الرماية.</p>
+                            <a href="stories.html" class="timeline-link"><i class="fas fa-book-open" aria-hidden="true"></i> اقرأ القصص</a>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" id="era-poetry" data-era="poetry">
+                        <span class="timeline-badge">من سن ١٢</span>
+                        <div class="content">
+                            <h3><i class="fas fa-feather-alt" aria-hidden="true"></i> المسيرة الشعرية</h3>
+                            <p>بدأ كتابة الشعر في سن الثانية عشرة، ويُعتبر من مؤسسي الحركة الشعرية الشعبية في السلطنة.</p>
+                            <h4>دواوينه الشعرية:</h4>
+                            <ul class="achievements-list">
+                                <li><a href="poetry.html">على جناح الميدان</a></li>
+                                <li><a href="poetry.html">رواحل</a></li>
+                                <li><a href="poetry.html">نواعم</a></li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" id="era-career" data-era="career">
+                        <span class="timeline-badge">١٩٧٥ — ٢٠٠٥</span>
+                        <div class="content">
+                            <h3><i class="fas fa-briefcase" aria-hidden="true"></i> المناصب الحكومية</h3>
+                            <ul class="achievements-list">
+                                <li>نائب والٍ في عام ١٩٧٥م</li>
+                                <li>والٍ</li>
+                                <li>مدير عام شؤون القبائل في عام ١٩٨٥م</li>
+                                <li>
+                                    رئيس مكتب السلطنة في دبي بدرجة وكيل وزارة، وفق
+                                    <a href="imige/Royal%20decree%201.jpeg" target="_blank" rel="noopener noreferrer">المرسوم السلطاني رقم ٢٢/٩٤</a>
+                                    الصادر في ٨ فبراير ١٩٩٤م
+                                </li>
+                                <li>
+                                    نائب محافظ ظفار بين عامي ١٩٩٦–٢٠٠٥م، وفق
+                                    <a href="imige/Royal%20decree%203.jpeg" target="_blank" rel="noopener noreferrer">المرسوم السلطاني رقم ٥٦/٩٦</a>
+                                    الصادر في ١٢ يونيو ١٩٩٦م
+                                </li>
+                                <li>مستشار في الدولة وعضو في مجلس الدولة</li>
+                            </ul>
+                            <a href="testimonials.html" class="timeline-link"><i class="fas fa-scroll" aria-hidden="true"></i> المراسيم السلطانية</a>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" id="era-award" data-era="award">
+                        <span class="timeline-badge">١٩٨٩م</span>
+                        <div class="content">
+                            <h3><i class="fas fa-trophy" aria-hidden="true"></i> إنجاز شعري بارز</h3>
+                            <p>حصل على المركز الأول في مسابقة المنتدى الأدبي للشعر الشعبي.</p>
+                            <a href="achievements.html" class="timeline-link"><i class="fas fa-award" aria-hidden="true"></i> صفحة الإنجازات</a>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" id="era-diwan" data-era="diwan">
+                        <span class="timeline-badge">١٩٩١م</span>
+                        <div class="content">
+                            <h3><i class="fas fa-book-open" aria-hidden="true"></i> إصدار «على جناح الميدان»</h3>
+                            <p>صدر الجزء الرابع من سلسلة الفنون الشعبية العمانية بعنوان «على جناح الميدان» عن وزارة التراث القومي والثقافة — الطبعة الأولى أكتوبر ١٩٩١م.</p>
+                            <a href="poetry.html" class="timeline-link"><i class="fas fa-feather-alt" aria-hidden="true"></i> ديوان الشعر</a>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" id="era-hobbies" data-era="hobbies">
+                        <span class="timeline-badge">على مدى الحياة</span>
+                        <div class="content">
+                            <h3><i class="fas fa-star" aria-hidden="true"></i> الهوايات</h3>
+                            <p>كان مولعًا بالخيل وامتلك عددًا من الخيول العربية الأصيلة، وبارعًا في الرماية يمارسها مع أهل بلدته وأصدقائه.</p>
+                            <a href="gallery.html" class="timeline-link"><i class="fas fa-images" aria-hidden="true"></i> معرض الصور</a>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item" id="era-passing" data-era="passing">
+                        <span class="timeline-badge">١٦ يناير ٢٠٢١م</span>
+                        <div class="content">
+                            <h3><i class="fas fa-dove" aria-hidden="true"></i> الوفاة</h3>
+                            <p>توفي الشيخ حمد بن علي بن سعيد الغافري في ١٦ يناير ٢٠٢١م. رحمه الله وأسكنه فسيح جناته.</p>
+                            <a href="prayers.html" class="timeline-link"><i class="fas fa-pray" aria-hidden="true"></i> صفحة الدعاء</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>روابط مهمة</h4>
+                    <ul>
+                        <li><a href="poetry.html">ديوان الشعر</a></li>
+                        <li><a href="gallery.html">معرض الصور</a></li>
+                        <li><a href="testimonials.html">المراسيم السلطانية</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة لموقع الشيخ حمد بن علي الغافري © ٢٠٢٦</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="site-speaker.js"></script>
+    <script src="sheikh-ai.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>صفحة الدعاء - الشيخ حمد بن علي الغافري</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <header class="main-header">
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="biography.html">السيرة الذاتية</a></li>
+                <li><a href="achievements.html">الإنجازات</a></li>
+                <li><a href="poetry.html">ديوان الشعر</a></li>
+                <li><a href="stories.html">القصص</a></li>
+                <li><a href="gallery.html">معرض الصور</a></li>
+                <li><a href="testimonials.html">المراسيم السلطانية</a></li>
+                <li><a href="prayers.html">صفحة الدعاء</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="prayers-page">
+        <div class="container">
+            <section class="prayers-intro">
+                <h1>الدعاء للشيخ حمد بن علي الغافري</h1>
+                <p class="intro-text">رحم الله الشيخ حمد بن علي الغافري وأسكنه فسيح جناته. شاركونا في الدعاء له.</p>
+                <div class="counter-section">
+                    <div class="counter-box">
+                        <i class="fas fa-hands-praying"></i>
+                        <span class="counter-number"></span>
+                        <span class="counter-label">عدد المشاركين في الدعاء</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="add-prayer">
+                <h2><i class="fas fa-pen"></i> شارك في الدعاء</h2>
+                <form class="prayer-form">
+                    <div class="form-group">
+                        <label for="name">الاسم (اختياري)</label>
+                        <input type="text" id="name" placeholder="أدخل اسمك">
+                    </div>
+                    <div class="form-group">
+                        <label for="prayer">الدعاء</label>
+                        <textarea id="prayer" placeholder="اكتب دعاءك هنا..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-prayer">
+                        <i class="fas fa-paper-plane"></i>
+                        إرسال الدعاء
+                    </button>
+                </form>
+            </section>
+
+            <section class="recent-prayers">
+                <h2><i class="fas fa-pray"></i> أدعية الزوار</h2>
+                <div class="prayers-grid">
+                    <!-- دعاء 1 -->
+                    <div class="recent-prayer-card" data-prayer-id="1">
+                        <div class="prayer-meta">
+                            <span><i class="fas fa-user"></i> زائر كريم</span>
+                            <span><i class="far fa-clock"></i> منذ 2 ساعة</span>
+                        </div>
+                        <div class="prayer-message">
+                            اللهم ارحم الشيخ حمد بن علي الغافري رحمة واسعة واجعل قبره روضة من رياض الجنة، اللهم اجزه عنا خير الجزاء لما قدمه من علم وخدمة للمجتمع.
+                        </div>
+                        <div class="prayer-actions">
+                            <button><i class="fas fa-heart"></i> آمين</button>
+                            <button><i class="fas fa-share"></i> مشاركة</button>
+                        </div>
+                    </div>
+
+                    <!-- دعاء 2 -->
+                    <div class="recent-prayer-card" data-prayer-id="2">
+                        <div class="prayer-meta">
+                            <span><i class="fas fa-user"></i> زائر كريم</span>
+                            <span><i class="far fa-clock"></i> منذ 5 ساعات</span>
+                        </div>
+                        <div class="prayer-message">
+                            اللهم ارفع درجات الشيخ حمد في الجنة واجعل ما قدمه من علم وإرشاد في ميزان حسناته، وألهم أهله وذويه الصبر والسلوان.
+                        </div>
+                        <div class="prayer-actions">
+                            <button><i class="fas fa-heart"></i> آمين</button>
+                            <button><i class="fas fa-share"></i> مشاركة</button>
+                        </div>
+                    </div>
+
+                    <!-- دعاء 3 -->
+                    <div class="recent-prayer-card" data-prayer-id="3">
+                        <div class="prayer-meta">
+                            <span><i class="fas fa-user"></i> زائر كريم</span>
+                            <span><i class="far fa-clock"></i> منذ يوم</span>
+                        </div>
+                        <div class="prayer-message">
+                            رحم الله الشيخ حمد رحمة واسعة، اللهم اغفر له وارحمه واجعل الجنة مثواه، وأكرم نزله ووسع مدخله واغسله بالماء والثلج والبرد.
+                        </div>
+                        <div class="prayer-actions">
+                            <button><i class="fas fa-heart"></i> آمين</button>
+                            <button><i class="fas fa-share"></i> مشاركة</button>
+                        </div>
+                    </div>
+
+                    <!-- دعاء 4 -->
+                    <div class="recent-prayer-card" data-prayer-id="4">
+                        <div class="prayer-meta">
+                            <span><i class="fas fa-user"></i> زائر كريم</span>
+                            <span><i class="far fa-clock"></i> منذ يومين</span>
+                        </div>
+                        <div class="prayer-message">
+                            اللهم اجعل قبر الشيخ حمد روضة من رياض الجنة، واجعل علمه وحكمته التي نشرها صدقة جارية له، وبارك في ذريته واجعلهم خير خلف لخير سلف.
+                        </div>
+                        <div class="prayer-actions">
+                            <button><i class="fas fa-heart"></i> آمين</button>
+                            <button><i class="fas fa-share"></i> مشاركة</button>
+                        </div>
+                    </div>
+
+                    <!-- دعاء 5 -->
+                    <div class="recent-prayer-card" data-prayer-id="5">
+                        <div class="prayer-meta">
+                            <span><i class="fas fa-user"></i> زائر كريم</span>
+                            <span><i class="far fa-clock"></i> منذ 3 أيام</span>
+                        </div>
+                        <div class="prayer-message">
+                            اللهم ارحم الشيخ حمد واجعل ما قدمه من خدمة للدين والوطن في ميزان حسناته، واجعل الفردوس الأعلى مثواه، وألهم أهله وذويه الصبر والسلوان.
+                        </div>
+                        <div class="prayer-actions">
+                            <button><i class="fas fa-heart"></i> آمين</button>
+                            <button><i class="fas fa-share"></i> مشاركة</button>
+                        </div>
+                    </div>
+
+                    <!-- دعاء 6 -->
+                    <div class="recent-prayer-card" data-prayer-id="6">
+                        <div class="prayer-meta">
+                            <span><i class="fas fa-user"></i> زائر كريم</span>
+                            <span><i class="far fa-clock"></i> منذ 4 أيام</span>
+                        </div>
+                        <div class="prayer-message">
+                            اللهم اجعل ما قدمه الشيخ حمد من علم وإرشاد نوراً له في قبره ويوم القيامة، وأسكنه فسيح جناتك مع الصديقين والشهداء والصالحين.
+                        </div>
+                        <div class="prayer-actions">
+                            <button><i class="fas fa-heart"></i> آمين</button>
+                            <button><i class="fas fa-share"></i> مشاركة</button>
+                        </div>
+                    </div>
+
+                    <!-- دعاء 7 -->
+                    <div class="recent-prayer-card" data-prayer-id="7">
+                        <div class="prayer-meta">
+                            <span><i class="fas fa-user"></i> زائر كريم</span>
+                            <span><i class="far fa-clock"></i> منذ أسبوع</span>
+                        </div>
+                        <div class="prayer-message">
+                            رحم الله الشيخ حمد وأسكنه فسيح جناته، اللهم اجعل كل حرف علمه وكل نصيحة قدمها في ميزان حسناته، واجمعنا به في جنات النعيم.
+                        </div>
+                        <div class="prayer-actions">
+                            <button><i class="fas fa-heart"></i> آمين</button>
+                            <button><i class="fas fa-share"></i> مشاركة</button>
+                        </div>
+                    </div>
+
+                    <!-- دعاء 8 -->
+                    <div class="recent-prayer-card" data-prayer-id="8">
+                        <div class="prayer-meta">
+                            <span><i class="fas fa-user"></i> زائر كريم</span>
+                            <span><i class="far fa-clock"></i> منذ أسبوع</span>
+                        </div>
+                        <div class="prayer-message">
+                            اللهم ارحم الشيخ حمد واغفر له وتجاوز عن سيئاته، واجعل ما قدمه من خدمة للمجتمع صدقة جارية له، وأنر قبره وافسح له فيه.
+                        </div>
+                        <div class="prayer-actions">
+                            <button><i class="fas fa-heart"></i> آمين</button>
+                            <button><i class="fas fa-share"></i> مشاركة</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-prayer">
+                <h2><i class="fas fa-star"></i> دعاء مختار</h2>
+                <div class="featured-prayer-card">
+                    <div class="prayer-text">
+                        <i class="fas fa-quote-right"></i>
+                        <p>اللهم اجعل قبره روضة من رياض الجنة، واجزه خير الجزاء عما قدمه لأمته من علم وأدب وشعر</p>
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>روابط مهمة</h4>
+                    <ul>
+                        <li><a href="biography.html">السيرة الذاتية</a></li>
+                        <li><a href="poetry.html">ديوان الشعر</a></li>
+                        <li><a href="gallery.html">معرض الصور</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة لموقع الشيخ حمد بن علي الغافري © ٢٠٢٦</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="site-speaker.js"></script>
+    <script src="sheikh-ai.js"></script>
+</body>
+</html> 

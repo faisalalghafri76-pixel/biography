@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>القصص - الشيخ حمد بن علي الغافري</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <header class="main-header">
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="biography.html">السيرة الذاتية</a></li>
+                <li><a href="achievements.html">الإنجازات</a></li>
+                <li><a href="poetry.html">ديوان الشعر</a></li>
+                <li><a href="stories.html">القصص</a></li>
+                <li><a href="gallery.html">معرض الصور</a></li>
+                <li><a href="testimonials.html">المراسيم السلطانية</a></li>
+                <li><a href="prayers.html">صفحة الدعاء</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="stories-page">
+        <div class="container">
+            <section class="stories-intro">
+                <h1>القصص والحكايات</h1>
+                <p class="intro-text">مجموعة من القصص والحكايات التي تحكي عن حياة الشيخ حمد بن علي الغافري وأحداثها المميزة</p>
+            </section>
+
+            <section class="stories-search" aria-label="بحث وتصنيف القصص">
+                <div class="stories-toolbar">
+                    <div class="search-box">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                        <input
+                            type="search"
+                            id="stories-search-input"
+                            class="stories-search-input"
+                            placeholder="ابحث في القصص... (مثال: العبية، الرماية، الدلة)"
+                            autocomplete="off"
+                            enterkeyhint="search"
+                        >
+                        <button type="button" class="search-clear-btn" aria-label="مسح البحث" hidden>
+                            <i class="fas fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="stories-categories">
+                        <span class="categories-label">التصنيف:</span>
+                        <div class="categories-grid" role="group" aria-label="تصنيفات القصص">
+                            <button type="button" class="category-btn active" data-filter="all">
+                                <i class="fas fa-list" aria-hidden="true"></i>
+                                الكل
+                            </button>
+                            <button type="button" class="category-btn" data-filter="horsemanship">
+                                <i class="fas fa-horse-head" aria-hidden="true"></i>
+                                الفروسية
+                            </button>
+                            <button type="button" class="category-btn" data-filter="archery">
+                                <i class="fas fa-bullseye" aria-hidden="true"></i>
+                                الرماية
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="search-results-count" id="stories-search-count" aria-live="polite"></p>
+            </section>
+
+            <section class="stories-grid">
+                <article class="story-card" data-category="horsemanship" style="grid-column: 1 / -1; max-width: 920px; margin: 0 auto; width: 100%;">
+                    <div class="story-header">
+                        <i class="fas fa-horse-head" aria-hidden="true"></i>
+                        <h3>هدية السلطان وفرس «العبية»</h3>
+                    </div>
+                    <div class="story-content">
+                        <p>في سن السابعة، اصطحب والده الشيخ علي بن سعيد الغافري ابنه الشيخ حمد في زيارة إلى السلطان سعيد بن تيمور – والد صاحب الجلالة السلطان قابوس بن سعيد المعظم (رحمه الله) – دون أن يُخبره في البداية بوجهته، حتى وصلوا إلى بيت البَرزة في «بيت الباغ».</p>
+                        <p>وكعادة السلطان في ذلك الوقت، كان يُكرم ضيوفه بهدايا عند مغادرتهم. وقبل الخروج، أوصى الشيخ علي ابنه الشيخ حمد قائلاً: إذا قال لك السيد أحمد بن إبراهيم البوسعيدي، ناظر الشؤون الداخلية، إن السلطان أمر لك بهدية، فلا تختر فرسًا، فلدينا من الخيل الكثير، بل اختر بندقية «ميزر أبو تاجين».</p>
+                        <p>وعند حضور السيد أحمد، عرض على الشيخ حمد اختيار هدية، إلا أن الشيخ حمد قال: أريد خيلًا. فحاول السيد أحمد توجيهه قائلاً إن والده يملك خيولًا كثيرة، فليختر شيئًا آخر، لكنه أصر على اختياره للخيل.</p>
+                        <p>وعند عودته إلى والده، سأله الشيخ علي: ماذا اخترت؟ وكان حاضرًا معهم حينها بخيت النوبي، فتولى الإجابة قائلاً: اخترت الخيل. عندها غضب الشيخ علي بن سعيد الغافري وقال: لو لم تكن في «بيت البرزة» لضربتك، فقد أوصيتك ألا تختار الخيل. وأضاف مستفسرًا: ومن الذي سيقود الخيل إلى «الدريز»؟</p>
+                        <p>بعد ذلك، توجه الشيخ حمد مع والده يوم الجمعة إلى الوطية، إلى مربط الخيل الخاص بالحكومة لاختيار الهدية، حيث استقبلهم السيد أحمد بحفاوة وترحاب، وقال لعبيد السلامي: خذ ابنك حمد ودعه يختار مهرة حتى يقوم بتربيتها وتدريبها وركوبها.</p>
+                        <p>إلا أن الشيخ حمد اختار فرسًا عمرها ست سنوات، وكانت من الخيول المحببة لدى السيد أحمد، دون أن يدرك ذلك في البداية، رغم أن عبيد السلامي أبلغه لاحقًا بهذه المعلومة.</p>
+                        <p>فعادوا إلى السيد أحمد، وأخبره عبيد قائلاً: إن حمد لم يختر مهرة بل اختار فرسًا. فقال السيد أحمد: لقد طلبتُ منك أن تختار مهرة لأنك ما زلت صغيرًا، فلماذا اخترت فرسًا؟ فأجابه الشيخ حمد بثقة: مولانا السلطان أمر لي بخيل، ولي الحرية الكاملة في اختيار الهدية.</p>
+                        <p>فقال السيد أحمد: نعم، لك الحرية. ثم غادروا الوطية، وتكفّل بخيت النوبي بركوب الخيل، وعادوا عبر منطقة الباطنة، حيث كان الشيخ علي بن سعيد الغافري يملك عددًا كبيرًا من الأصدقاء.</p>
+                        <p>وكانت الفرس التي اختارها الشيخ حمد تُدعى «العبية»، لونها كميت، وهي من الخيول العربية الأصيلة.</p>
+                    </div>
+                    <div class="story-details">
+                        <span class="story-category">الفروسية</span>
+                        <span class="story-date">في سن السابعة</span>
+                    </div>
+                </article>
+
+                <article class="story-card" data-category="archery" style="grid-column: 1 / -1; max-width: 920px; margin: 0 auto; width: 100%;">
+                    <div class="story-header">
+                        <i class="fas fa-bullseye" aria-hidden="true"></i>
+                        <h3>براعة الشيخ حمد في الرماية</h3>
+                    </div>
+                    <div class="story-content">
+                        <p>بدأ الشيخ حمد تعلّم الرماية منذ سن السابعة، وكان يتميز بدقة عالية جدًا في التصويب، حتى قيل إنه لا ينافسه أحد في مهارته.</p>
+                        <p>وقد روى بنفسه أنه أصاب «دلة» من مسافة تقارب كيلومترًا كاملًا.</p>
+                        <p>وكان يمارس هذه الهواية كلما سنحت له الفرصة مع أهل بلدته وأصدقائه.</p>
+                    </div>
+                    <div class="story-details">
+                        <span class="story-category">الرماية</span>
+                        <span class="story-date">في سن السابعة</span>
+                    </div>
+                </article>
+            </section>
+
+            <div class="stories-no-results" id="stories-no-results" hidden>
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <h3>لا توجد نتائج</h3>
+                <p>لم نعثر على قصة تطابق بحثك. جرّب كلمات أخرى أو اختر تصنيفًا مختلفًا.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>روابط مهمة</h4>
+                    <ul>
+                        <li><a href="biography.html">السيرة الذاتية</a></li>
+                        <li><a href="poetry.html">ديوان الشعر</a></li>
+                        <li><a href="gallery.html">معرض الصور</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة لموقع الشيخ حمد بن علي الغافري © ٢٠٢٦</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="site-speaker.js"></script>
+    <script src="sheikh-ai.js"></script>
+</body>
+</html> 

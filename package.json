@@ -1,0 +1,16 @@
+{
+  "name": "shikh-hamed-bin-ali",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "generate:audio": "node scripts/generate-welcome-audio.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "msedge-tts": "^2.0.5"
+  }
+}
